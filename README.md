@@ -147,6 +147,47 @@ SCADA: "NODE_ID: TX-4521, STATUS: 0x00, V: 0.0"
 
 [Learn more about the Semantic Layer →](docs/SEMANTIC_LAYER_EXPLAINED.md)
 
+## 🔌 Complete API Catalog
+
+The platform consists of **16 production-ready APIs** organized in three layers:
+
+### 🎯 Experience APIs (3)
+User-facing APIs that provide intuitive interfaces for field agents, grid operators, and executives.
+
+| API Name | Purpose | Key Endpoint |
+|----------|---------|-------------|
+| **Agent Alerts API** | Delivers targeted, prioritized alerts to mobile field agents | `GET /agent/alerts` |
+| **Agent Dashboard API** | Real-time updates and situational awareness for field crews | `GET /agent/alerts` |
+| **Dashboard Overview API** | Executive metrics and KPIs for grid operations | `GET /dashboard/overview` |
+
+### ⚙️ Process APIs (8)
+Business logic layer that orchestrates complex grid operations and emergency responses.
+
+| API Name | Purpose | Key Endpoint |
+|----------|---------|-------------|
+| **A2A Coordination API** | Enables autonomous agent-to-agent communication and task distribution | `POST /a2a/coordination` |
+| **A2A Priority Alerts API** | Time-sensitive alerts for coordinated multi-agent grid actions | `GET /a2a/priority-alerts` |
+| **Critical Infrastructure API** | Identifies and prioritizes outages affecting hospitals, emergency services | `GET /alerts/critical-infrastructure` |
+| **Crew Dispatch API** | Intelligent work order routing and field crew deployment | `POST /dispatch/crew` |
+| **Grid Coordination API** | Orchestrates grid restoration with AI-driven decision making | `POST /grid/coordination` |
+| **Incident Create API** | Logs outages and infrastructure failures with automatic classification | `POST /incident/create` |
+| **MCP Grid Exchange API** | Master control point for grid-wide load balancing decisions | `POST /mcp/grid-exchange` |
+| **MCP Safety Orchestration API** | Life-safety prioritization and emergency restoration flows | `POST /mcp/safety-orchestration` |
+
+### 🔧 System APIs (6)
+Direct integrations with backend systems, IoT devices, and external data sources.
+
+| API Name | Purpose | Key Endpoint |
+|----------|---------|-------------|
+| **DER Devices API** | Distributed energy resources (solar, battery) data and control | `GET /der/devices` |
+| **Salesforce Assets API** | Critical utility assets from Salesforce Energy Cloud | `GET /salesforce/assets` |
+| **SCADA Devices API** | Real-time telemetry from grid infrastructure | `GET /scada/devices` |
+| **SCADA Status API** | Device health and operational status monitoring | `GET /scada/devices/status` |
+| **Smart Meter Usage API** | Customer consumption data for load analysis | `GET /meters/{meterId}/usage` |
+| **Weather Forecast API** | Predictive weather data for storm preparation | `GET /weather/forecast` |
+
+> **Note**: All APIs support OAuth 2.0 authentication and return standardized error responses. Base URL: `https://api.utility-ai.com/v1`
+
 ## 📁 Project Structure
 
 ```
