@@ -1,15 +1,15 @@
 openapi: 3.0.1
 info:
-  title: SCADA Device Status API
-  description: Returns real-time status from SCADA-connected field devices.
+  title: Salesforce Assets API
+  description: Access critical utility assets from Salesforce Energy Cloud.
   version: "1.0.0"
 servers:
   - url: https://api.utility-ai.com/v1
 paths:
-  /scada/devices/status:
+  /salesforce/assets:
     get:
-      summary: Returns real-time status from SCADA-connected field devices.
-      operationId: get_scada_devices_status
+      summary: Access critical utility assets from Salesforce Energy Cloud.
+      operationId: get_salesforce_assets
       tags:
         - system
       responses:
@@ -19,7 +19,7 @@ paths:
             application/json:
               schema:
                 type: object
-                example: {'deviceId': 'TX123', 'status': 'online', 'voltage': 12.8}
+                example: {'assetId': 'ASSET001', 'location': 'TX', 'type': 'transformer'}
         '400':
           description: Bad Request
           content:

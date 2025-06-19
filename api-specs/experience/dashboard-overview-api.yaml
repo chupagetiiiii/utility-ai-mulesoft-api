@@ -1,17 +1,17 @@
 openapi: 3.0.1
 info:
-  title: SCADA Device Status API
-  description: Returns real-time status from SCADA-connected field devices.
+  title: Dashboard Overview API
+  description: Provides real-time operational metrics for grid operators.
   version: "1.0.0"
 servers:
   - url: https://api.utility-ai.com/v1
 paths:
-  /scada/devices/status:
+  /dashboard/overview:
     get:
-      summary: Returns real-time status from SCADA-connected field devices.
-      operationId: get_scada_devices_status
+      summary: Provides real-time operational metrics for grid operators.
+      operationId: get_dashboard_overview
       tags:
-        - system
+        - experience
       responses:
         '200':
           description: Successful response
@@ -19,7 +19,7 @@ paths:
             application/json:
               schema:
                 type: object
-                example: {'deviceId': 'TX123', 'status': 'online', 'voltage': 12.8}
+                example: {'alertsActive': 3, 'crewsDispatched': 12}
         '400':
           description: Bad Request
           content:

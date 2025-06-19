@@ -1,15 +1,15 @@
 openapi: 3.0.1
 info:
-  title: SCADA Device Status API
-  description: Returns real-time status from SCADA-connected field devices.
+  title: Weather Forecast API
+  description: Provides weather forecast for grid prediction.
   version: "1.0.0"
 servers:
   - url: https://api.utility-ai.com/v1
 paths:
-  /scada/devices/status:
+  /weather/forecast:
     get:
-      summary: Returns real-time status from SCADA-connected field devices.
-      operationId: get_scada_devices_status
+      summary: Provides weather forecast for grid prediction.
+      operationId: get_weather_forecast
       tags:
         - system
       responses:
@@ -19,7 +19,7 @@ paths:
             application/json:
               schema:
                 type: object
-                example: {'deviceId': 'TX123', 'status': 'online', 'voltage': 12.8}
+                example: {'region': 'Houston', 'temperature': 95, 'condition': 'Storm'}
         '400':
           description: Bad Request
           content:

@@ -1,15 +1,15 @@
 openapi: 3.0.1
 info:
-  title: SCADA Device Status API
-  description: Returns real-time status from SCADA-connected field devices.
+  title: Smart Meter Usage API
+  description: Retrieves electricity usage data from smart meters.
   version: "1.0.0"
 servers:
   - url: https://api.utility-ai.com/v1
 paths:
-  /scada/devices/status:
+  /meters/{meterId}/usage:
     get:
-      summary: Returns real-time status from SCADA-connected field devices.
-      operationId: get_scada_devices_status
+      summary: Retrieves electricity usage data from smart meters.
+      operationId: get_meters_{meterId}_usage
       tags:
         - system
       responses:
@@ -19,7 +19,7 @@ paths:
             application/json:
               schema:
                 type: object
-                example: {'deviceId': 'TX123', 'status': 'online', 'voltage': 12.8}
+                example: {'meterId': 'MTR567', 'usageKWh': 34.2, 'timestamp': '2025-06-19T17:00:00Z'}
         '400':
           description: Bad Request
           content:

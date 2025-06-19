@@ -1,17 +1,17 @@
 openapi: 3.0.1
 info:
-  title: SCADA Device Status API
-  description: Returns real-time status from SCADA-connected field devices.
+  title: Agent-to-Agent Coordination API
+  description: Enables coordination logic between mobile field agents and AI systems.
   version: "1.0.0"
 servers:
   - url: https://api.utility-ai.com/v1
 paths:
-  /scada/devices/status:
-    get:
-      summary: Returns real-time status from SCADA-connected field devices.
-      operationId: get_scada_devices_status
+  /a2a/coordination:
+    post:
+      summary: Enables coordination logic between mobile field agents and AI systems.
+      operationId: post_a2a_coordination
       tags:
-        - system
+        - process
       responses:
         '200':
           description: Successful response
@@ -19,7 +19,7 @@ paths:
             application/json:
               schema:
                 type: object
-                example: {'deviceId': 'TX123', 'status': 'online', 'voltage': 12.8}
+                example: {'agentId': 'AGENT001', 'targetAgentId': 'AGENT005', 'task': 'power-restore', 'urgency': 'high'}
         '400':
           description: Bad Request
           content:
