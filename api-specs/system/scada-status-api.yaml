@@ -1,0 +1,22 @@
+openapi: 3.0.1
+info:
+  title: SCADA Status API
+  description: Exposes real-time grid data from SCADA systems.
+  version: "1.0.0"
+servers:
+  - url: https://api.utility-ai.com/v1
+paths:
+  /scada/devices/status:
+    get:
+      summary: Get SCADA device statuses
+      operationId: getScadaDeviceStatus
+      tags:
+        - SCADA
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                example: {'deviceId': 'TX123', 'status': 'online', 'voltage': 12.8}

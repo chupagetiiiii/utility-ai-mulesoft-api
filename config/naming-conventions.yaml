@@ -1,0 +1,9 @@
+
+rules:
+  naming:
+    pathSegments:
+      case: kebab-case
+    jsonProperties:
+      case: camelCase
+    resourceNames:
+      plural: true

@@ -1,0 +1,5 @@
+
+rules:
+  apiVersioning:
+    style: uri
+    uriFormat: "/v{version}"

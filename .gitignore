@@ -1,0 +1,89 @@
+# MuleSoft specific
+.mule/
+target/
+*.jar
+*.war
+*.ear
+*.class
+*.log
+*.iml
+*.ipr
+*.iws
+.idea/
+.classpath
+.project
+.settings/
+velocity.log
+.metadata/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Anypoint Studio
+.studio/
+*.launch
+bin/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment files
+*.env
+*.properties
+!example.properties
+!mule-app.properties
+!mule-project.xml
+
+# Credentials and secrets
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+credentials/
+secrets/
+
+# Test results
+test-output/
+test-results/
+coverage/
+*.exec
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+.cache/
+
+# Node.js (if using any JS tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if using any Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Logs
+logs/
+*.log.*

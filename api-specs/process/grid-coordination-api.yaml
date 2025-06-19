@@ -1,0 +1,22 @@
+openapi: 3.0.1
+info:
+  title: Grid Coordination API
+  description: Coordinates agent-to-agent grid responses.
+  version: "1.0.0"
+servers:
+  - url: https://api.utility-ai.com/v1
+paths:
+  /grid/coordination:
+    post:
+      summary: Coordinate grid agents and actions
+      operationId: postGridCoordination
+      tags:
+        - Grid Coordination
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                example: {'region': 'TX-78', 'priority': 'high', 'action': 'dispatch-repair'}
