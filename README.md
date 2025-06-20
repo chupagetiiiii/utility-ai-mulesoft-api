@@ -314,7 +314,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) for deta
 
 **Built with ❤️ for the utility industry by grid operators who understand that every second without power matters.**
 
-*Part of the Synapse v2.5 initiative for autonomous agent-based enterprise automation.*
+*Built for the next generation of autonomous utility operations.*
 
 </div>
 
